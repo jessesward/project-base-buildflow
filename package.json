@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "watch": "gulp watch",
+        "sass": "gulp sass",
+        "js": "gulp js",
+        "dev": "gulp build",
+        "prod": "NODE_ENV=production gulp build"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.7.7",
+        "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+        "@babel/preset-env": "^7.12.11",
+        "babelify": "^10.0.0",
+        "browser-sync": "^2.26.13",
+        "browserify": "^17.0.0",
+        "gulp": "^4.0.2",
+        "gulp-minify": "^3.1.0",
+        "gulp-notify": "^3.2.0",
+        "gulp-postcss": "^9.0.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "vinyl-buffer": "^1.0.1",
+        "vinyl-source-stream": "^2.0.0"
+    },
+    "dependencies": {
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+    }
+}
